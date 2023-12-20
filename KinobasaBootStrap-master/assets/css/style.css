@@ -1,0 +1,175 @@
+.header a, a:hover {
+    color: rgb(134, 182, 201);
+    text-decoration: none;
+}
+
+.header h1 {
+    letter-spacing: 15px;
+    font-size: 300%;
+    font-family: auto;
+}
+
+.header p {
+    color: white;
+    font-size: 90%;
+    letter-spacing: 3px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #346270;
+}
+
+.nav-pills>li>a {
+    color: #fff;
+}
+
+.nav-pills>li>a:hover {
+    background-color: #346270;
+}
+
+.navbar-inverse {
+    padding: 1%;
+    border-radius: 0;
+}
+
+@media (max-width: 767px) {
+    .nav-pills>li {
+        float: none;
+    }
+
+    .nav-pills {
+        text-align: center;
+    }
+
+    .header h1 {
+        font-size: 280%;
+        letter-spacing: 5px;
+    }
+}
+
+.clear {
+    clear: both;
+    height: 63px;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+html, body {
+    height: 100%;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+/* Films Block Styles */
+.films_block {
+    text-align: center;
+}
+
+.films_block img {
+    margin-bottom: 5%;
+    border-radius: 5px;
+    border: solid 5px #dad7d5;
+    width: 100%;
+}
+
+.film_label {
+    padding: 2%;
+    margin-bottom: 4%;
+}
+
+.margin-8 {
+    margin-top: 8%;
+}
+
+/* Panel Styles */
+.panel {
+    border: none;
+}
+
+.panel-body {
+    background-color: #f9f9f9;
+}
+
+.panel-info>.panel-heading {
+    background-color: #59767e;
+    color: white;
+    border-color: transparent;
+}
+
+.sidebar-header {
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+/* Form Styles */
+.form-control {
+    border-radius: 0; /* Updated to 0 for consistency */
+}
+
+.input-1g {
+    font-size: 14px;
+}
+
+/* List Group Item Styles */
+.list-group-item-warning {
+    color: #8dafc2;
+    background-color: #f9f9f9;
+}
+
+.badge {
+    background-color: #000000;
+}
+
+/* Info Block Styles */
+.info-block {
+    font-size: 120%;
+}
+
+.info-block .badge {
+    font-size: 80%;
+}
+
+.info-block span {
+    margin-right: 3%;
+}
+
+/* Textarea Styles */
+textarea.form-control {
+    height: 200px;
+}
+
+/* Table Styles */
+.table tbody>tr>td.vert-align {
+    vertical-align: middle;
+}
+
+/* Footer Styles */
+footer {
+    color: #666;
+    background: #222;
+    padding: 17px 0 18px 0;
+    border-top: 1px solid #000;
+}
+
+footer a {
+    color: #999;
+}
+
+footer a:hover {
+    color: #efefef;
+}
+.films_block img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.films_block img:hover {
+    transform: scale(1.1);
+}
+.btn-warning {
+    color: #fff;
+    background-color: #394f55;
+    border-color: #394f55;
+}
